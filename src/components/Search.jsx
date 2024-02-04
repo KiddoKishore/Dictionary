@@ -59,7 +59,7 @@ const Search = () => {
         ) : !meaning && error ? (
             <div>
                 <h1>
-                Sorry we couldn't find definitions for the word you were looking for. click below to search a new word
+                Sorry we couldn't find definitions for the word <b>{input}</b>. click below to search a new word
                 </h1>
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={handleLogin}>Click Here</button>
             </div>
